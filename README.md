@@ -1,21 +1,3 @@
-# Clone the repository
-git clone https://github.com/yourusername/ecom-flow-automation.git
-
-# Navigate to the project directory
-cd ecom-flow-automation
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run all tests
-pytest -n 4 --html=report.html --self-contained-html
-
-# Build Docker image
-docker build -t ecom-tests .
-
-# Run Docker container
-docker run ecom-tests
-
 # Ecom Flow Automation
 
 ## Description
